@@ -15,6 +15,7 @@ header {
   top: 0;
   background: rgba(252, 252, 252, 1) !important;
   opacity: 1;
+  width: 100%;
 }
 
 nav h1 {
@@ -80,7 +81,9 @@ nav h1 {
   width: 47%;
   text-align: justify;
 }
-
+.major-accomplishments{
+  width: 100%;
+}
 .row-1,
 .row-2 {
   display: flex;
@@ -92,7 +95,7 @@ nav h1 {
 .major-accomplishments img {
   display: block;
   height: 300px;
-  width: 490px;
+  width: 350px;
   padding: 70px;
   border-radius: 20px;
 }
@@ -204,15 +207,16 @@ footer {
   margin-left: 750px;
 }
 .footer_div h2 {
-  padding-left: 770px;
+  padding-left: 700px;
   padding-top: 50px;
   font-size: 40px;
   font-family: "Hind", sans-serif;
   color: white;
 }
-.footer_div ul li a i {
-  margin: 20px;
-  padding-top: 10px;
+.footer_div ul li a  {
+  margin: 10px;
+  padding-top: 20px;
+  margin-right: 10px;
 }
 .footer_div h3 {
   color: aliceblue;
